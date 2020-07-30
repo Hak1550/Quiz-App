@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+    /* color: white; */
+}
+body{
+    background: linear-gradient(to bottom right, #0099ff 0%, #ff99cc 100%);        width: 100%;
+
+}
+.mainDiv{
+    margin: 50vh auto;
+    text-align: center;
+}
+#nameInput{
+width: 250px;
+height: 5vh;
+font-size: 20px;
+color: #2d3436;
+/* background-color: white; */
+border: none;
+border-bottom: 1px gray solid;
+border-radius: 10em;
+padding-left: 20px;
+text-transform: uppercase;
+background-color: #55efc4;
+}
+#startbtn{
+margin-top: 20px;
+width: 100px;
+font-size: 20px;
+height: 5vh;
+background-color: #b2bec3;
+font-size: 1.2em;
+cursor: pointer;
+}
+.mainDiv button a{
+    font-style: normal;
+    color: #2d3436;
+    text-decoration: none;
+
+}
+
+/* ======================== Quiz Page ================================== */
+
+
+#quizDiv {
+    width: 80%;
+    margin: 15vh auto;
+    margin-bottom: 5vh;
+    text-align: center;
+    background-color: cornsilk;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#quizDiv > input{
+cursor: pointer;
+}
+#quizHead{
+    border-bottom: 1px solid;
+    /* width: 92%; */
+    /* margin: 10px 0px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    text-align: left;
+    padding-left: 20px;
+}
+#questionPort {
+text-align: left;
+}
+#questionPort p{
+margin-top: 15px;
+font-weight: bold;
+}
+#questionPort ul li{
+    list-style: none;
+    cursor: pointer;
+    height: 3vh;
+    margin-top: 30px;
+    padding: 10px;
+}
+#questionPort ul li:hover{
+background-color: rgba(10, 10, 247,0.6);
+color: white;
+}
+#button button{
+padding: 10px;
+background-color: rgba(10, 10, 247,0.8);
+color: cornsilk;
+cursor: pointer;
+width: 195px;
+margin: 15px;
+font-size: 1rem;
+}
+#button button:hover{
+    background-color: rgb(10, 10, 247);
+
+}
+#timeSpan {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+#submit {
+    color: rgb(230, 208, 208);
+    background-color: rgba(141, 111, 111,0.9);
+    border-radius: 5px;
+    box-shadow: none;
+    width: 100px;
+    font-size: 1em;
+    padding: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    text-align: center;
+}
+#submit a{
+    text-decoration: none;
+    color: cornsilk;
+}
+#submit:hover{
+    background-color: rgb(109, 82, 82);
+
+}
+.resultDiv{
+    margin: 39vh auto;
+    text-align: center;
+    font-size: 1.5em;
+    color: cornsilk;
+}
+.resultDiv span{
+color: #ffeaa7;
+text-decoration: underline;
+}
+.mian  {
+    text-align: center;
+}

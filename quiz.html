@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quizDiv" >
+        <div id="quizHead">Question no. 1 out of 5
+            <!-- <hr> -->
+            <div id="timeSpan"> Remaining Time = >  <span id="time"> 4 : 59 </span></div>
+        </div>
+        <div id="questionPort">
+        <p id="question" onload="showQuestion()">Write the question over here.</p>
+        <ul>
+            <label ><li class="optElement">  <input value="answers" type="radio"  name="answer" /> answer # 1 </li>  </label>
+            <label ><li class="optElement">  <input value="answers" type="radio" name="answer"  /> answer # 2 </li>  </label>
+            <label ><li class="optElement">  <input value="answers" type="radio" name="answer"  /> answer # 3 </li>  </label>
+            <label ><li class="optElement">  <input value="answers" type="radio" name="answer"  /> answer # 4 </li>  </label>
+    </ul>
+    </div>
+        <div id="button">
+            <button id="preQuestion">PREVIOUS QUESTION</button>
+        <button id="nextQuestion" onclick="nextQuestion()">NEXT QUESTION</button>
+        </div>
+    </div>
+    <div class="mian">
+    <button id="submit"><a href="result.html"> Submit </a></button>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
